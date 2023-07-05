@@ -80,6 +80,7 @@ const Gallery = () => {
               <div className='picture' key={i}>
                 <img className='rounded-xl' src={img.src} style={{ width: '100%' }} />
               </div>
+              
             )
           })
         }
